@@ -2,4 +2,4 @@
 
 Smart green business for circular economy about common good.
 
-Project by Ancestors Holding - LivingByNature.
+Project by Ancestors Holding - Living By Nature.
