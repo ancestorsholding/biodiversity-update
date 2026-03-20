@@ -401,17 +401,7 @@ It gives back."
                    onmouseout="this.style.boxShadow='none'">
                     🎬 Watch Biodiversity Video
                 </a>
-            </div><!-- Smart Biopark section -->
-<div class="project-item biopark">
-    <div class="orange-accent"></div>
-    <div class="project-content">
-        <div class="project-text">
-            <h3>Smart Biopark</h3>
-            <p><strong>Intelligent livestock ecosystem</strong> – biological feedback as a real‑time management tool. Animals, soil, vegetation, water in symbiosis.</p>
-            <div class="pillars">
-                <span>🌱 Smart</span>
-                <span>♻️ Sustainable</span>
-                <span>🌿 Nature‑Centric</span>
+         
             </div>
         </div>
         <div class="project-video">
@@ -445,7 +435,132 @@ It gives back."
                    onmouseout="this.style.boxShadow='none'">
                     🎬 Watch Innodiversity Video
                 </a>
+            </div><!-- ========== SMART BIOPARK SECTION ========== -->
+<div class="smart-biopark-block">
+    <!-- Accent orange linéaire -->
+    <div class="orange-accent"></div>
+
+    <div class="biopark-content">
+        <div class="biopark-text">
+            <h3>Smart Biopark</h3>
+            <p><strong>Intelligent livestock ecosystem</strong> – biological feedback as a real‑time management tool. Animals, soil, vegetation, water in symbiosis.</p>
+            <div class="biopark-tags">
+                <span>🌱 Smart</span>
+                <span>♻️ Sustainable</span>
+                <span>🌿 Nature‑Centric</span>
             </div>
+            <div class="biopark-quote">
+                “What if we managed farms the way nature manages forests?”
+            </div>
+        </div>
+        <div class="biopark-video">
+            <iframe 
+                src="https://www.youtube.com/embed/OsBr5Mtb2IQ" 
+                title="Smart Biopark preview" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Styles pour la section Smart Biopark – à adapter si nécessaire */
+.smart-biopark-block {
+    margin: 3rem 0;
+    background: transparent;
+}
+
+/* Accent orange linéaire */
+.orange-accent {
+    background: linear-gradient(90deg, #ff6a00, #ff9a3c);
+    height: 4px;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    border-radius: 2px;
+}
+
+.biopark-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.biopark-text {
+    flex: 2;
+    min-width: 220px;
+}
+
+.biopark-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #2c5e2f;
+    font-weight: 600;
+}
+
+.biopark-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.biopark-tags {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.biopark-tags span {
+    background: #fff0e4;
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    color: #ff6a00;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.biopark-quote {
+    margin-top: 1rem;
+    font-style: italic;
+    border-left: 3px solid #ff6a00;
+    padding-left: 1rem;
+    color: #5a5a4a;
+}
+
+.biopark-video {
+    flex: 1;
+    min-width: 280px;
+    background: #fafaf0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.biopark-video:hover {
+    transform: translateY(-4px);
+}
+
+.biopark-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .biopark-content {
+        flex-direction: column;
+    }
+    .biopark-text h3 {
+        font-size: 1.5rem;
+    }
+}
+ </style>
         </div>
         
         <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: white; border-radius: 10px; border: 2px dashed #2E7D32;">
